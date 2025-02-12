@@ -1,0 +1,8 @@
+flask
+flask-cors
+werkzeug
+ocrmypdf
+PyMuPDF
+pytesseract
+pdf2image
+gunicorn
