@@ -5,7 +5,7 @@ Thumbs.db
 .env
 .vscode/
 .idea/
-node_modules/
+
 # Virtual environment
 venv/
 .env
@@ -17,10 +17,10 @@ instance/
 # Dependencies
 pip-log.txt
 pip-delete-this-directory.txt
-# Dependencies
 node_modules/
 dist/
 .vite/
+
 # Deployment-specific files
 .vercel/
 .netlify/
