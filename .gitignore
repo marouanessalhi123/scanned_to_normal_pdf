@@ -1,0 +1,26 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.log
+.env
+.vscode/
+.idea/
+node_modules/
+# Virtual environment
+venv/
+.env
+*.pyc
+__pycache__/
+*.sqlite3
+instance/
+
+# Dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+# Dependencies
+node_modules/
+dist/
+.vite/
+# Deployment-specific files
+.vercel/
+.netlify/
