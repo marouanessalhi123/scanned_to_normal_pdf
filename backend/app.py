@@ -7,7 +7,8 @@ import PyPDF2
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__, static_folder="../frontend/dist", static_url_path="/")
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "https://frontend-brown-ten-56.vercel.app/"}})
+
 
 # Configuration
 UPLOAD_FOLDER = "uploads"

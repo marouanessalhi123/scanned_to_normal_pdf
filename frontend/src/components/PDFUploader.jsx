@@ -38,7 +38,7 @@ const PDFUploader = () => {
     formData.append("file", file);
 
     try {
-      const response = await fetch("http://localhost:5001/upload", {
+      const response = await fetch("https://pdf-process-backend-6.onrender.com/upload", {
         method: "POST",
         body: formData,
       });
@@ -104,7 +104,7 @@ const PDFUploader = () => {
 
           {uploadedFile && (
             <a
-              href={`http://localhost:5001${uploadedFile}`}
+              href={`https://pdf-process-backend-6.onrender.com${uploadedFile}`}
               className="btn btn-success"
               download
             >
